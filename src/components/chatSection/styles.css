@@ -145,6 +145,10 @@
   margin-top: auto;
 }
 
+.text-white {
+  color: white;
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,176 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+
+/* css */
+.search-app {
+  font-family: sans-serif;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.results {
+  margin-bottom: 20px;
+}
+
+.message-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-section textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.search-app {
+  font-family: sans-serif;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.search-app.mode2 {
+  /* Define styles specific to Mode 2 here */
+  background-color: #f0f0f0;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-results.hidden {
+  display: none;
+}
+
+.search-results li {
+  padding: 5px 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.search-results li:hover {
+  background-color: #f5f5f5;
+}
+
+.search-bar button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.search-bar button i {
+  font-size: 16px;
+}
+
+/* .mode-toggle {
+  margin-bottom: 20px;
+}
+
+.mode-toggle label {
+  display: flex;
+  align-items: center;
+}
+
+.mode-toggle input[type="checkbox"] {
+  margin-right: 10px;
+} */
+
+.message-section,
+.document-repository {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.message-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.message-section button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add additional styles for Mode 2 specific elements here */
+
+.toggle-button {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button.active {
+  background-color: #007bff;
+}
+
+.toggle-button .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 2px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.toggle-button.active .slider {
+  transform: translateX(28px);
+}
+
+.toggle-button .toggle-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 12px;
+}

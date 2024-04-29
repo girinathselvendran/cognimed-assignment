@@ -1,15 +1,12 @@
 .search-component {
   width: 30%;
   background-color: black;
-  /* background-color: ; */
   border-left: 1px solid white;
   border-right: 1px solid white;
-  /* display: hidden; */
 }
 .search-section {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 10px;
   margin-top: 20px;
 }
@@ -29,7 +26,6 @@
 .search-input {
   border: 1px solid gray;
   border-radius: 20px;
-  /* padding: 2px; */
   width: 65%;
   display: flex;
   justify-content: center;
@@ -39,7 +35,6 @@
 }
 
 .search-input i {
-  /* margin-left: 10px; */
   color: #828289;
 }
 

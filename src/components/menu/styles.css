@@ -8,7 +8,6 @@
   width: 70px;
   height: 100vh;
   align-items: center;
-  /* gap: 10px; */
   padding-top: 20px;
   position: relative;
   justify-content: last baseline;
@@ -46,17 +45,8 @@ a {
   padding: 20px 24px;
   margin: 0px;
   background-color: #1b1c21;
-  /* border-left: 5px solid #7382e0; */
 }
 
-a:hover {
-  /* border-left: 5px solid #7382e0;
-  background-color: #1b1c21;
-  color: #007bff; */
-}
-a :active {
-  /* background-color: #1b1c21; */
-}
 .active-menu {
   border-left: 9px solid #7382e0;
   background-color: #1b1c21;
@@ -69,8 +59,6 @@ a :active {
 a i {
   color: white;
 }
-
-/* toggle */
 
 .switch {
   position: relative;

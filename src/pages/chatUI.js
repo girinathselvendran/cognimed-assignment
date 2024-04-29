@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import SideBar from "../components/sidebar";
 import Menu from "../components/menu";
 import { SearchSection } from "../components/search";
 import "./styles.css";
@@ -13,7 +12,6 @@ export const ChatUI = () => {
 
   return (
     <div className="page">
-      {/* <SideBar /> */}
       <Menu />
       <SearchSection
         mode={data}

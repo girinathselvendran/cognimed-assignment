@@ -30,7 +30,6 @@ function Menu() {
           </a>
 
           <a href="#">
-            {" "}
             <i className="fa-regular fa-gear"></i>
           </a>
         </div>

@@ -7,19 +7,19 @@ export const userRecords = [
         id: 1,
         sender: "John Doe",
         content: "Hi there! How can I help you today?",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 2,
         sender: "You",
         content: "Hi John, I have a question about...",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
         sender: "John Doe",
         content: "Sure, I can definitely help with that. Please tell me more.",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -31,19 +31,19 @@ export const userRecords = [
         id: 1,
         sender: "John Doe",
         content: "How can I help you today?",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 2,
         sender: "You",
         content: "Hi John, I have a question about...",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
         sender: "John Doe",
         content: "Sure, I can definitely help with that. Please tell me more.",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -55,19 +55,19 @@ export const userRecords = [
         id: 1,
         sender: "John Doe",
         content: "How can I help you today?",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 2,
         sender: "You",
         content: "Hi John, I have a question about...",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
         sender: "John Doe",
         content: "Sure, I can definitely help with that. Please tell me more.",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -79,19 +79,19 @@ export const userRecords = [
         id: 1,
         sender: "John Doe",
         content: "Hi there! How can I help you today?",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 2,
         sender: "You",
         content: "Hi John, I have a question about...",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
         sender: "John Doe",
         content: "Sure, I can definitely help with that. Please tell me more.",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -103,19 +103,19 @@ export const userRecords = [
         id: 1,
         sender: "John Doe",
         content: "Hi there! How can I help you today?",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 2,
         sender: "You",
         content: "Hi John, I have a question about...",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
         sender: "John Doe",
         content: "Sure, I can definitely help with that. Please tell me more.",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -127,19 +127,19 @@ export const userRecords = [
         id: 1,
         sender: "John Doe",
         content: "Hi there! How can I help you today?",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 2,
         sender: "You",
         content: "Hi John, I have a question about...",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
         sender: "John Doe",
         content: "Sure, I can definitely help with that. Please tell me more.",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -160,7 +160,7 @@ export const researchRecords = [
         id: 2,
         sender: "John Doe",
         content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`,
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
@@ -173,7 +173,7 @@ export const researchRecords = [
         sender: "John Doe",
         content:
           "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -191,7 +191,7 @@ export const researchRecords = [
         id: 2,
         sender: "John Doe",
         content: `Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics. `,
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
@@ -204,7 +204,7 @@ export const researchRecords = [
         sender: "John Doe",
         content:
           "Web3 and cryptocurrency are closely related, but they are not the same thing. Web3 is a broader and more diverse concept that encompasses cryptocurrency, but also other technologies and applications that aim to create a more decentralized and user-centric web.",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -222,7 +222,7 @@ export const researchRecords = [
         id: 2,
         sender: "John Doe",
         content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`,
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
@@ -235,7 +235,7 @@ export const researchRecords = [
         sender: "John Doe",
         content:
           "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -253,7 +253,7 @@ export const researchRecords = [
         id: 2,
         sender: "John Doe",
         content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`,
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         id: 3,
@@ -267,7 +267,7 @@ export const researchRecords = [
         sender: "John Doe",
         content:
           "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -283,7 +283,7 @@ export const researchRecords = [
       {
         sender: "John Doe",
         content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`,
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         sender: "You",
@@ -294,7 +294,7 @@ export const researchRecords = [
         sender: "John Doe",
         content:
           "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -310,7 +310,7 @@ export const researchRecords = [
       {
         sender: "John Doe",
         content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`,
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
       {
         sender: "You",
@@ -321,7 +321,7 @@ export const researchRecords = [
         sender: "John Doe",
         content:
           "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-        timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+        timestamp: new Date().toISOString(),
       },
     ],
   },
@@ -331,17 +331,17 @@ export const userRecordsList = [
   {
     sender: "John Doe",
     content: "Hi there! How can I help you today?",
-    timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+    timestamp: new Date().toISOString(),
   },
   {
     sender: "You",
     content: "Hi John, I have a question about...",
-    timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+    timestamp: new Date().toISOString(),
   },
   {
     sender: "John Doe",
     content: "Sure, I can definitely help with that. Please tell me more.",
-    timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+    timestamp: new Date().toISOString(),
   },
 ];
 
@@ -354,7 +354,7 @@ export const researchRecordsList = [
   {
     sender: "John Doe",
     content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`,
-    timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+    timestamp: new Date().toISOString(),
   },
   {
     sender: "You",
@@ -365,6 +365,6 @@ export const researchRecordsList = [
     sender: "John Doe",
     content:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-    timestamp: new Date().toISOString(), // Replace with actual timestamp for each message
+    timestamp: new Date().toISOString(),
   },
 ];

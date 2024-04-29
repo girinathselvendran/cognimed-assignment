@@ -78,12 +78,10 @@ export const ChatSection = ({ mode, chatData, userData }) => {
                             message.sender === "You" ? "outgoing" : "incoming"
                           }`}
                         >
-                          {/* <span className="message-sender">{message.sender}</span> */}
                           <span className="message-content">
                             {message.content}
                           </span>{" "}
                           <br />
-                          {/* <span className="message-timestamp">{message.timestamp}</span> */}
                         </div>
                       </li>
                     ))}
@@ -105,10 +103,9 @@ export const ChatSection = ({ mode, chatData, userData }) => {
                 </footer>
               </div>
             </div>
-          ) : //   ))
+          ) : 
           mode === "mode2" ? (
-            // researchRecords &&
-            // researchRecords.map((item) => (
+          
             <div className="chat-section light-bg">
               <h2>{userData?.topic}</h2>
 
@@ -145,12 +142,10 @@ export const ChatSection = ({ mode, chatData, userData }) => {
                             message.sender === "You" ? "outgoing" : "incoming"
                           }`}
                         >
-                          {/* <span className="message-sender">{message.sender}</span> */}
                           <span className="message-content">
                             {message.content}
-                          </span>{" "}
+                          </span>
                           <br />
-                          {/* <span className="message-timestamp">{message.timestamp}</span> */}
                         </div>
                       </li>
                     ))}
@@ -172,7 +167,7 @@ export const ChatSection = ({ mode, chatData, userData }) => {
                 </footer>
               </div>
             </div>
-          ) : // ))()
+          ) : 
           null}
         </>
       )}
